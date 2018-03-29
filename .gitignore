@@ -1,0 +1,13 @@
+# dev
+.idea
+
+# macOs specific
+.DS_Store
+
+# system
+.env
+
+# python
+python-env
+__pycache__
+*.pyc
