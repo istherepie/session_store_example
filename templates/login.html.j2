@@ -1,0 +1,10 @@
+{% extends "master.html.j2" %}
+
+{% block content %}
+    <h1>SUPER SECURE AUTHENTICATION FORM</h1>
+    <form action="/login" method="post">
+        <input type="text" name="username" />
+        <input type="password" name="password">
+        <button>Submit</button>
+    </form>
+{% endblock %}
